@@ -1,0 +1,61 @@
+	@media screen and (max-width: 515px) {
+		header {
+			height: auto;
+			position: relative;
+		}
+
+		header a {
+			display: none;
+		}
+
+		.mobile_icon {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 35px;
+			height: 35px;
+			background: #fff;
+			border-radius: 10px;
+			padding: 2px;
+			margin: 10px;
+		}
+
+		.mobile_icon img {
+			display: flex;
+			width: 28px;
+		}
+
+		.popup {
+			position: absolute;
+			top: 100%;
+			width: 50%;
+			left: 25%;
+			background-color: #fff;
+		}
+
+		header:hover .popup a {
+			display: block;
+			text-align: center;
+			color: #000;
+			margin: 10px 0;
+		}
+
+		.cards {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	@media screen and (max-width: 811px) {
+		.cards {
+			grid-template-columns: 1fr;
+		}
+
+		.item {
+			justify-self: center;
+			align-self: center;
+		}
+
+		h1 {
+			text-align: center;
+		}
+	}

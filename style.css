@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	margin: 0;
+	color: #ffffff;
+	font-family: 'Roboto';
+	background: #700d0d;
+}
+
+header {
+	display: flex;
+	height: 3rem;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 0 5px #fff;
+}
+
+.mobile_icon img {
+	display: none;
+}
+
+header a { 
+	text-decoration: none;
+	color: white;
+	margin-right: 25px;
+}
+
+header a:last-child {
+	margin-right: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	margin: 1rem;
+	align-self: center;
+}
+
+.cards {
+	display: grid;
+	grid-template: 1fr 1fr / 1fr 1fr;
+	grid-gap: 1rem;
+}
+
+.cards .item {
+	align-self: center;
+	justify-self: center;
+}
+
+.cards .item img{
+ max-width: 100%;
+ max-height: 100%;
+}
+
+.cards .item p {
+	text-align: center;
+}
+
